@@ -1,0 +1,40 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+.calc{
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    background-color: black;
+    border: none;
+    /* box-shadow: -1px -1px 10px 10px orange; */
+}
+#input{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    height: 100px;
+    border: none;
+    background: transparent;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+button{
+    border: none;
+    color: black;
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    cursor: pointer;
+}
